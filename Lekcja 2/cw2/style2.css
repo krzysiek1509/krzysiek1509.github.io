@@ -6,16 +6,21 @@ body{
     
 
 .title{
-    text-align:center;
-    padding: 10px 10px 10px  10px ;
+    padding: 15px 0;
     border:2px solid black;
-    margin-left: 60%;
+    display:flex;
+    justify-content:flex-end;
 }
 .subtitle{
-display:flex;
-justify-content: right;
-margin-left: 60%;
+    width: 60%;
 border:2px solid black;
+}
+.logo{
+    text-align: center;
+}
+.menu{
+display:flex;
+justify-content: space-around;
 }
 
 .gif1 {
