@@ -5,6 +5,9 @@ body{
 }
 .header{
     text-align: center;
+    font-size: 30px;
+    color: darkmagenta;
+    padding:5px;
     border:2px dashed black;
 }
 #menu1{
@@ -87,6 +90,7 @@ border:2px dashed black;
     }
 .subtitle{
     text-align: center;
+    padding:5px;
 }
 .wykres1{
     height:5000px;
@@ -110,8 +114,10 @@ border:2px dashed black;
 }
 .opis2{
     text-align: center;
+    padding:5px;
     border:2px dashed black;
 }
 .footer{
     text-align: center;
+    padding:5px;
 }
