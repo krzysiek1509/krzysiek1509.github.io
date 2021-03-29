@@ -33,8 +33,6 @@ display:flex;
 }
 .img1, .opis1{
     width:50%;
-    height:50%;
-    float:left;
     padding:5px;
     border:2px dashed black;
     }
