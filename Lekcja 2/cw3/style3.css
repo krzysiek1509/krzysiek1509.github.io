@@ -1,0 +1,104 @@
+body{
+    font-size:18px;
+    font-style:arial;
+    border:2px solid black;
+}
+.header{
+    text-align: center;
+    border:2px dashed black;
+}
+.menu1{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    padding: 5px;
+    background-color:rgb(155, 204, 219);
+    text-align: center;
+    border:2px dashed black;
+}
+.menu1:hover{
+    background-color: rgb(101, 219, 200);
+}
+.content1{
+display:flex;
+justify-content: space-evenly;
+}
+.p1{
+flex:1;
+border:2px dashed black;
+}
+.obrazek{
+flex:5;
+display:flex;
+}
+.img1, .opis1{
+    width:50%;
+    height:50%;
+    float:left;
+    padding:5px;
+    border:2px dashed black;
+    }
+@media only screen and (max-width: 600px){
+    .img1,.opis1{
+        width:100%;
+    }
+}
+.p2{
+flex:1;
+border:2px dashed black;
+}
+.menu2{
+    position: -webkit-sticky;
+    position: sticky;
+    top:4%;
+    padding: 5px;
+    background-color:rgb(155, 204, 219);
+    text-align: center;
+    border:2px dashed black;
+}
+.menu2:hover{
+    background-color: rgb(101, 219, 200);
+}
+.content2{
+    display:flex;
+    justify-content:space-evenly;
+}
+.s1{
+    flex:1;
+    border:2px dashed black;
+}
+.parent{
+    flex:5;
+    justify-content:center;
+    align-items: space-around;
+    }
+.subtitle{
+    text-align: center;
+}
+.wykres1{
+    height:5000px;
+    width:100%;
+    border:2px dashed black;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.slupek{
+    width:8%;
+    background-color:red;
+}
+.t1{height:60px;}
+.t2{height:40px;}
+.t3{height:20px;}
+.s2{
+    flex:1;
+    border:2px dashed black;
+}
+.opis2{
+    text-align: center;
+    border:2px dashed black;
+}
+.footer{
+    text-align: center;
+}
