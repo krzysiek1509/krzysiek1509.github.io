@@ -1,0 +1,75 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: cornsilk;
+}
+.static{
+    position:static;
+    text-align:center;
+}
+.sticky{
+    border:3px solid red;
+    background-color: cyan;
+    padding:2% 5%;
+    position:sticky;
+    top:2px;
+    z-index:1;
+    display:flex;
+    justify-content: space-around;
+}
+.fixed{
+    border:3px solid red;
+    background-color: cyan;
+    padding:2% 5%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index:1;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border:2px solid blueviolet;
+    padding:5% 0;
+    margin-bottom: 8%;
+}
+.relative{
+height:40vh;
+width:40vw;
+position:relative;
+margin-bottom: 3%;
+}
+.absolute{
+border:8px dashed rgb(52, 194, 80);
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+background-color: seashell;
+background-size:cover;
+}
+.click:active{
+opacity:0;
+transition:1s;
+}
+.obrazek1{
+background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw2/slon.jpg);
+}
+.obrazek2{
+    background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw2/zebra.jpg);
+}
+.obrazek3{
+    background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw2/nosorozec.jpg);
+}
+.obrazek4{
+    background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw2/lew.jpg);
+}
+@media(max-width:748px){
+        .relative{
+        height:80vh;
+        width:95vw;
+    }
+   }
