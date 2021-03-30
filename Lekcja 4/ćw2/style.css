@@ -1,3 +1,8 @@
+body {
+    background-image: url(tapeta1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 .header{
     text-align: center;
         }
