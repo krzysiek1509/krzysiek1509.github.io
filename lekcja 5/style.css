@@ -1,0 +1,51 @@
+h4{
+    text-align:center;
+}
+.grid{
+    border:3px solid blue;
+    display:grid;
+    grid-template-areas:
+    "user mail info"
+    "chrome linkedin info";
+    gap:5px;
+}
+a{
+    border: 2px solid red;
+    color:inherit;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 5px;
+    font-size: 4em;
+}
+a:nth-child(1){ 
+    grid-area: user;
+}
+a:nth-child(2){ 
+    grid-area: mail;
+}
+a:nth-child(3){ 
+    grid-area: info;
+}
+a:nth-child(4){ 
+    grid-area: chrome;
+}
+a:nth-child(5){ 
+    grid-area: linkedin;
+}
+p{
+    margin:0;
+    font-size:0.5em;
+    text-align:center;
+}
+i{ text-align: center;}
+.grid>a>i:hover{
+    color:rgb(212, 30, 167)
+}
+@media(max-width:748px){
+    .grid{ display:block;}
+}
+.footer{
+    text-align: right;
+    border:2px solid blueviolet
+}

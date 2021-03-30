@@ -1,0 +1,6 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-info:before { content: '\e802'; } /* '' */
+.icon-chrome:before { content: '\e841'; } /* '' */
+.icon-linkedin:before { content: '\f05c'; } /* '' */
