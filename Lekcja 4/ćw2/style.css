@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-    background-image: url(tapeta1.jpg);
+    background-image: url(double-bubble-dark.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -96,29 +96,66 @@ body {
       .menu{
         padding:5px;
       }
-      .article{
-        color:rgb(231, 239, 241);
-      }
-      .sectionup{
+      .content{
         display: flex;
         justify-content: space-around;
+        color:rgb(231, 239, 241);
                  }
-      .section1{ 
+      main{ 
+        flex:3;
         display:flex;
         flex-direction: column;
         border:2px solid  red;
       }
-      .section2{ 
+      main>p{
+        padding:5px;
+      }
+      .headermid{
+        text-align: center;
+      }
+      img{
+        max-width:100%;
+      }
+      aside{
+        flex:1;
         display:flex;
         flex-direction: column;
-        border:2px solid  red;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+      .art{
+        text-align: center;
       }
       .sectiondown{
+        font-size:40px;
         display:flex;
         flex-direction: column;
+        border: 2px solid black;
       }
-      .footer{
-        color:rgb(241, 240, 236);
+      .zdjecie1{
+        border: 2px solid whitesmoke;
+        width:200px;
+        height:150px;
+        text-align: center;
+      }
+      .icon{
+        margin-top: 25px;
+        display:inline-block;
+        font-size: 100px;
+      }
+      .ikonki{
         padding: 10px 5%;
-        text-align: right;
+        font-size:40px;
+        display:flex;
+        justify-content: center;
+              }
+      .ikonki>a{
+        padding: 5px 3%;
       }
+    footer p{
+      text-align: right;
+      color:rgb(241, 240, 236);
+      font-size: 16px;
+      padding: 5px 5%;
+    }
