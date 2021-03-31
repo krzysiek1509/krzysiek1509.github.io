@@ -113,6 +113,7 @@ body {
         display:flex;
         flex-direction: column;
         border:2px solid  red;
+        padding:8px;
       }
       main>p{
         padding:5px;
@@ -169,7 +170,21 @@ body {
         padding: 10px 10px;
         color:black;
         width:100%;
+             }
+      form{
+        display:flex;
+        flex-direction: column;
       }
+      .formtextarea{
+        border: 1px solid purple;
+        width:100%;
+        background-color: rgb(219, 219, 235);
+      }
+      .forbut{
+        align-self:flex-end; 
+        margin:10px;
+        width:15%;
+                   }
       .komentarz2{
         display:flex;
         justify-content: center;
