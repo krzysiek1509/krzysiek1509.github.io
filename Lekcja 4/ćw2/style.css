@@ -131,18 +131,54 @@ body {
         font-size:40px;
         display:flex;
         flex-direction: column;
+        align-items: flex-start;
         border: 2px solid black;
       }
+      .komentarz1{
+        display:flex;
+        padding: 10px;
+        border: 2px solid red;
+            }
       .zdjecie1{
-        border: 2px solid whitesmoke;
+        border: 2px solid black;
+        width:160px;
+        height:120px;
+        text-align: center;
+        background-color: slategrey;
+              }
+      .zdjecie1 .icon{
+        margin-top: 15px;
+        display:inline-block;
+        font-size: 90px;
+      }
+      .komtek1{
+        padding: 10px 10px;
+        background-color: rgb(175, 175, 209);
+        color:black;
+        width:80%;
+      }
+      .komentarz2{
+        display:flex;
+        padding: 10px;
+        border: 2px solid red;
+            }
+      .zdjecie2{
+        border: 2px solid black;
         width:200px;
         height:150px;
         text-align: center;
-      }
-      .icon{
+        background-color: slategrey;
+              }
+      .zdjecie2 .icon{
         margin-top: 25px;
         display:inline-block;
         font-size: 100px;
+      }
+      .komtek2{
+        padding: 10px 10px;
+        background-color: rgb(175, 175, 209);
+        color:black;
+        width:80%;
       }
       .ikonki{
         padding: 10px 5%;
