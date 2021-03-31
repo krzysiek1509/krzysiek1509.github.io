@@ -14,10 +14,12 @@ body {
       /* wygląd głównego elementu - ol */
       ol {
         list-style-type:none;
-        padding:5px;
-        margin:0;
+        padding:5px 5px;
+        margin:0 0 5px 0;
+        border-top:0;
         font-size:18px;
-        height:3em;
+        height: 4em;
+        line-height: 2em;
         text-align:center;
         display:flex;
         justify-content: space-evenly;
@@ -37,12 +39,14 @@ body {
         width:18%;
         margin-left:1px;
         background-color:#27130e;
-        height:3em;
+        height:4em;
       }
 
       /* wygląd elementu - li - pierwszego dziecka elementu - ol */
       ol > li:first-child {
         margin-left:0;
+        padding:2px 5px;
+        margin-bottom: 2px;
       }
 
       /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
@@ -68,6 +72,7 @@ body {
         list-style-type:none;
         padding:0;
         margin:0;
+        height:3em;
       }
 
       /* wygląd elementu - li - w części rozwijanej */
@@ -91,7 +96,9 @@ body {
         color:rgb(231, 239, 241);
       }
       .menu{
-        padding:5px;
+        padding:0;
+        position:sticky;
+        top:0;
       }
       .content{
         display: flex;
@@ -120,12 +127,15 @@ body {
         justify-content: space-around;
         align-items: center;
         padding: 10px;
+        border:2px solid  red;
       }
       .art{
         text-align: center;
+        border:1px dashed red;
+        padding:5%;
       }
       .sectiondown{
-        font-size:40px;
+        font-size:18px;
         display:flex;
         flex-direction: column;
         align-items: flex-start;
@@ -191,4 +201,9 @@ body {
       color:rgb(241, 240, 236);
       font-size: 16px;
       padding: 5px 5%;
+    }
+    @media(max-width:748px){
+      .content{
+        display:grid;
+      }
     }
