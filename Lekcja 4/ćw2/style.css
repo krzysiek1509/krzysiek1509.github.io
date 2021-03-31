@@ -14,7 +14,7 @@ body {
       /* wygląd głównego elementu - ol */
       ol {
         list-style-type:none;
-        padding:5px 5px;
+        padding:5px 5px 5px 5px;
         margin:0 0 5px 0;
         border-top:0;
         font-size:18px;
@@ -23,7 +23,7 @@ body {
         text-align:center;
         display:flex;
         justify-content: space-evenly;
-      }
+         }
 
       /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
       ol a {
@@ -40,6 +40,7 @@ body {
         margin-left:1px;
         background-color:#27130e;
         height:4em;
+        border: 2px solid red;
       }
 
       /* wygląd elementu - li - pierwszego dziecka elementu - ol */
@@ -51,12 +52,12 @@ body {
 
       /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
       ol > li:hover {
-        background-color:rgb(9, 22, 14);
+        background-color:rgb(207, 20, 20);
       }
 
       /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
       ol > li:hover > a {
-        color:rgb(229, 237, 240);
+        color:rgb(241, 245, 247);
       }
 
       /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
@@ -96,14 +97,16 @@ body {
         color:rgb(231, 239, 241);
       }
       .menu{
-        padding:0;
+        padding:5px 10px 15px 10px;
         position:sticky;
         top:0;
+        background-color:#27130e;
       }
       .content{
         display: flex;
         justify-content: space-around;
         color:rgb(231, 239, 241);
+        padding-top: 5px;
                  }
       main{ 
         flex:3;
@@ -133,18 +136,22 @@ body {
         text-align: center;
         border:1px dashed red;
         padding:5%;
+        width:90%;
       }
       .sectiondown{
+        color:rgb(241, 240, 236);
         font-size:18px;
         display:flex;
         flex-direction: column;
-        align-items: flex-start;
-        border: 2px solid black;
+        align-items: center;
+        border: 2px solid red;
       }
       .komentarz1{
         display:flex;
+        justify-content: center;
         padding: 10px;
         border: 2px solid red;
+        width:80%;
             }
       .zdjecie1{
         border: 2px solid black;
@@ -162,12 +169,14 @@ body {
         padding: 10px 10px;
         background-color: rgb(175, 175, 209);
         color:black;
-        width:80%;
+        width:100%;
       }
       .komentarz2{
         display:flex;
+        justify-content: center;
         padding: 10px;
         border: 2px solid red;
+        width:80%;
             }
       .zdjecie2{
         border: 2px solid black;
@@ -185,7 +194,7 @@ body {
         padding: 10px 10px;
         background-color: rgb(175, 175, 209);
         color:black;
-        width:80%;
+        width:100%;
       }
       .ikonki{
         padding: 10px 5%;
