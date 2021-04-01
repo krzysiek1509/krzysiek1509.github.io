@@ -1,0 +1,65 @@
+$primaryColor: rgb(175, 30, 30);
+$secondaryColor: rgb(236, 165, 165);
+%centered{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width:60%;
+}
+body{
+    background-color: aquamarine;
+    h1{
+        @extend %centered;
+    }
+    .piesart{
+        border:2px dashed red;
+        @extend %centered;
+        
+        header{
+            border: 2px dashed red;
+            flex:2;
+            padding-left: 2%;
+            color:$secondaryColor;
+            background-color: blue;
+            }
+        .obrazek{
+            @extend %centered;
+            border:2px solid yellow;
+            flex:1;
+            padding:4%;
+             }    
+          }
+    main{
+        @extend %centered;
+        flex-wrap: wrap;
+        justify-content: space-around;
+            div{
+                @extend %centered;
+                border: 2px solid green;
+                width:30vw;
+                height: 30vw;
+                margin: 1vw 0;
+                background-size: cover;
+                background-position: center;
+                }
+             @for $i from 1 through 6{
+                 div:nth-child(#{$i}){
+                     border: 3vw solid lighten(black, $i *15%);
+                     background-image: url(img/d#{$i}.jpg);
+                 }
+             }   
+        }
+    .dwa{
+      flex-direction:row-reverse;
+    }
+    footer{
+        @extend %centered;
+        justify-content:space-around;
+        color:$primaryColor;
+        font-size: 4em;    }
+}

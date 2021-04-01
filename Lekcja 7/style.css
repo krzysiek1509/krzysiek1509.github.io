@@ -1,0 +1,107 @@
+body h1, body .piesart, body .piesart .obrazek, body main, body main div, body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 60%;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+body .piesart {
+  border: 2px dashed red;
+}
+
+body .piesart header {
+  border: 2px dashed red;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding-left: 2%;
+  color: #eca5a5;
+  background-color: blue;
+}
+
+body .piesart .obrazek {
+  border: 2px solid yellow;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4%;
+}
+
+body main {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main div {
+  border: 2px solid green;
+  width: 30vw;
+  height: 30vw;
+  margin: 1vw 0;
+  background-size: cover;
+  background-position: center;
+}
+
+body main div:nth-child(1) {
+  border: 3vw solid #262626;
+  background-image: url(img/d1.jpg);
+}
+
+body main div:nth-child(2) {
+  border: 3vw solid #4d4d4d;
+  background-image: url(img/d2.jpg);
+}
+
+body main div:nth-child(3) {
+  border: 3vw solid #737373;
+  background-image: url(img/d3.jpg);
+}
+
+body main div:nth-child(4) {
+  border: 3vw solid #999999;
+  background-image: url(img/d4.jpg);
+}
+
+body main div:nth-child(5) {
+  border: 3vw solid #bfbfbf;
+  background-image: url(img/d5.jpg);
+}
+
+body main div:nth-child(6) {
+  border: 3vw solid #e6e6e6;
+  background-image: url(img/d6.jpg);
+}
+
+body .dwa {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body footer {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #af1e1e;
+  font-size: 4em;
+}
+/*# sourceMappingURL=style.css.map */
