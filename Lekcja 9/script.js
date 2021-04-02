@@ -32,7 +32,7 @@ leftArr.onclick = () => {zmianaSlajdu("lewa")};
 
 //Kliknięcie w prawą strzałkę
 const rightArr = document.querySelector(".right");
-rightArr.onclick = () => {zmianaSlajdu("prawa")};
+rightArr.onclick = () => {zmianaSlajdu("prawa"), zmianaTla(liczSlajd)};
 
 //funkcja do zmiany obrazku
 function zmianaSlajdu ( kierunek){
@@ -47,5 +47,19 @@ function zmianaSlajdu ( kierunek){
      console.log(liczSlajd);
      showslide(liczSlajd);
         };
+
+function zmianaTla (index){
+    if(liczSlajd == 1){
+        document.body.style.backgroundColor = "red";
+    }
+    else{ 
+        if(liczSlajd == 2){
+            document.body.style.backgroundColor = "yellow"; 
+        }
+
+        else{
+            document.body.style.backgroundColor = "pink"; }
+        }
+}
 
 
