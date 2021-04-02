@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(110, 231, 106);
+}
+/* tymczasowe granice pól */
+div{
+    border: 1px solid blueviolet ;
+}
+
+.title{
+    text-align:center;
+    padding: 10px 20px ;
+}
+.subtitle{
+padding: 10px 20px;
+display:flex;
+justify-content: space-evenly;
+}
+
+.gif {
+    padding:4%;
+    border:2px dashed rgb(190, 20, 20);
+    color:rgb(190, 20, 20);
+}
+.content {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    padding:5%;
+    color:red;
+}
+.displayGif{
+    flex:3;
+}
+.descGif{
+    flex:3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    padding:15px;
+    text-align:right;
+    color:black;
+    background-color: yellowgreen;
+}
