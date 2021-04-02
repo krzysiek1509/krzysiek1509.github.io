@@ -28,7 +28,7 @@ obrazek.append(zdjecie);
 showslide(liczSlajd);
 //Kliknięcie w lewą strzałkę
 const leftArr = document.querySelector(".left");
-leftArr.onclick = () => {zmianaSlajdu("lewa")};
+leftArr.onclick = () => {zmianaSlajdu("lewa"), zmianaTla(liczSlajd)};
 
 //Kliknięcie w prawą strzałkę
 const rightArr = document.querySelector(".right");
