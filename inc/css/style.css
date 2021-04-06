@@ -20,9 +20,8 @@ body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html secti
 }
 
 body, html {
-  height: 100%;
   margin: 0;
-  font-style: italic;
+  font-style: Brush Script MT, Brush Script Std, cursive;
   background-image: url(img/sciana.png);
 }
 
@@ -44,13 +43,18 @@ body .tlo1 nav, html .tlo1 nav {
   position: absolute;
   top: 20px;
   left: 20px;
-  border: 2px dashed red;
+  border-radius: 20px  20px 20px 20px;
+  border: 2px solid #575348;
   font-size: 1.5rem;
 }
 
 body .tlo1 nav a, html .tlo1 nav a {
   padding: 10px 40px 10px 40px;
   color: #f7f3f3;
+}
+
+body .tlo1 nav a:hover, html .tlo1 nav a:hover {
+  color: red;
 }
 
 body section, html section {
@@ -122,14 +126,4 @@ body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
 }
-
-/* Rectangle 1 
-
-position: absolute;
-width: 1547px;
-height: 788px;
-left: -71px;
-top: -16px;
-
-background: url(5195ebb8c5f9772deda82aa2937134d3.jpg), #C4C4C4; */
 /*# sourceMappingURL=style.css.map */

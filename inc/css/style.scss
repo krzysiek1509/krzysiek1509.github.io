@@ -12,7 +12,7 @@
   }
   body,html{
     margin:0;
-    font-style: italic;
+    font-style: Brush Script MT, Brush Script Std, cursive;
     background-image: url(img/sciana.png);
         .tlo1{
         /*background-image: url(img/kawka.png);
@@ -31,12 +31,16 @@
         position : absolute;
         top: 20px;
         left: 20px;
-        border: 2px dashed red;
+        border-radius: 20px  20px 20px 20px;
+        border: 2px solid rgb(87, 83, 72);
         font-size: 1.5rem;
                 
         a{
             padding: 10px 40px 10px 40px;
             color: $primaryColor;
+         }
+         a:hover{
+             color: red;
          }
        }
     }
@@ -45,9 +49,10 @@
         position:relative;
         @extend %centered;
         flex-direction: column;
+        
         .container{ 
             z-index:1;
-        }
+                    }
         header{
             position:absolute;
             top:5vh;
@@ -102,15 +107,7 @@
 
 
 
-     /* Rectangle 1 
-
-position: absolute;
-width: 1547px;
-height: 788px;
-left: -71px;
-top: -16px;
-
-background: url(5195ebb8c5f9772deda82aa2937134d3.jpg), #C4C4C4; */
+     
 
 
 
