@@ -7,7 +7,7 @@
   font-size: 20px;
 }
 
-body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body main, html main, body main header, html main header, body footer, html footer {
+body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body footer, html footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,7 +52,7 @@ body .tlo1 nav a, html .tlo1 nav a {
   color: #f7f3f3;
 }
 
-body main, html main {
+body section, html section {
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -60,11 +60,11 @@ body main, html main {
           flex-direction: column;
 }
 
-body main .container, html main .container {
+body section .container, html section .container {
   z-index: 1;
 }
 
-body main header, html main header {
+body section header, html section header {
   position: absolute;
   top: 5vh;
   -webkit-box-orient: vertical;
@@ -75,30 +75,30 @@ body main header, html main header {
   z-index: 2;
 }
 
-body main .marketing, html main .marketing {
+body section .marketing, html section .marketing {
   position: absolute;
-  top: 35vh;
+  top: 40vh;
   z-index: 2;
 }
 
-body main section, html main section {
+body section main, html section main {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
   position: absolute;
   top: 20vh;
   padding: 5px;
-  margin: 5px 20vw 5px 20vw;
+  margin: 5px 30vw 5px 30vw;
 }
 
-body main article, html main article {
+body section article, html section article {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
   position: absolute;
   top: 80vh;
   padding: 5px;
-  margin: 5px 20vw 5px 20vw;
+  margin: 5px 30vw 5px 30vw;
 }
 
 body footer, html footer {

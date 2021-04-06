@@ -14,7 +14,7 @@
     height:100%;
     margin:0;
     background-image: url(img/sciana.png);
-    .tlo1{
+        .tlo1{
         /*background-image: url(img/kawka.png);
         height: 500px; */
         position:relative;
@@ -40,7 +40,7 @@
          }
        }
     }
-    main{
+    section{
         position:relative;
         @extend %centered;
         flex-direction: column;
@@ -57,17 +57,17 @@
         }
         .marketing{ 
             position:absolute;
-            top: 35vh;
+            top: 40vh;
             z-index: 2;
         }
-        section{
+        main{
             text-align: left;
             z-index: 2;
             color: $primaryColor;
             position:absolute;
             top: 20vh;
             padding: 5px;
-            margin: 5px 20vw 5px 20vw;
+            margin: 5px 30vw 5px 30vw;
         }
         article{
             text-align: left;
@@ -76,7 +76,7 @@
             position:absolute;
             top: 80vh;
             padding: 5px;
-            margin: 5px 20vw 5px 20vw;
+            margin: 5px 30vw 5px 30vw;
         }
 
     }
