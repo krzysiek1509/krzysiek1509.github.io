@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+}
+
+body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body main, html main, body main header, html main header, body footer, html footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url(img/sciana.png);
+}
+
+body .tlo1, html .tlo1 {
+  /*background-image: url(img/kawka.png);
+        height: 500px; */
+  position: relative;
+}
+
+body .tlo1 img, html .tlo1 img {
+  z-index: 0;
+}
+
+body .tlo1 nav, html .tlo1 nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10  px;
+  margin: 5px 15vw 5px 15vw;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px dashed red;
+  font-size: 1.5rem;
+}
+
+body .tlo1 nav a, html .tlo1 nav a {
+  padding: 10px 40px 10px 40px;
+  color: #f7f3f3;
+}
+
+body main, html main {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .container, html main .container {
+  z-index: 1;
+}
+
+body main header, html main header {
+  position: absolute;
+  top: 5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #f7f3f3;
+  z-index: 2;
+}
+
+body main .marketing, html main .marketing {
+  position: absolute;
+  top: 35vh;
+  z-index: 2;
+}
+
+body main section, html main section {
+  text-align: left;
+  z-index: 2;
+  color: #f7f3f3;
+  position: absolute;
+  top: 20vh;
+  padding: 5px;
+  margin: 5px 20vw 5px 20vw;
+}
+
+body main article, html main article {
+  text-align: left;
+  z-index: 2;
+  color: #f7f3f3;
+  position: absolute;
+  top: 80vh;
+  padding: 5px;
+  margin: 5px 20vw 5px 20vw;
+}
+
+body footer, html footer {
+  background-image: url(img/footersciana.png);
+  background-size: cover;
+  min-height: 300px;
+}
+
+body footer h4, html footer h4 {
+  color: #f7f3f3;
+  z-index: 2;
+}
+
+/* Rectangle 1 
+
+position: absolute;
+width: 1547px;
+height: 788px;
+left: -71px;
+top: -16px;
+
+background: url(5195ebb8c5f9772deda82aa2937134d3.jpg), #C4C4C4; */
+/*# sourceMappingURL=style.css.map */

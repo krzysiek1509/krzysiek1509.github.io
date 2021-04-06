@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+  }
+  :root{
+      font-size: 20px;
+  }
+  $primaryColor:rgb(247, 243, 243);
+  %centered{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body,html{
+    height:100%;
+    margin:0;
+    background-image: url(img/sciana.png);
+    .tlo1{
+        /*background-image: url(img/kawka.png);
+        height: 500px; */
+        position:relative;
+         @extend %centered;
+         img{
+             z-index: 0;
+         }
+        
+    nav{
+        @extend %centered;
+        justify-content: space-around;
+        padding: 10  px;
+        margin: 5px 15vw 5px 15vw;
+        position : absolute;
+        top: 20px;
+        left: 20px;
+        border: 2px dashed red;
+        font-size: 1.5rem;
+                
+        a{
+            padding: 10px 40px 10px 40px;
+            color: $primaryColor;
+         }
+       }
+    }
+    main{
+        position:relative;
+        @extend %centered;
+        flex-direction: column;
+        .container{ 
+            z-index:1;
+        }
+        header{
+            position:absolute;
+            top:5vh;
+        @extend %centered;
+        flex-direction: column;
+        color: $primaryColor;
+        z-index: 2;
+        }
+        .marketing{ 
+            position:absolute;
+            top: 35vh;
+            z-index: 2;
+        }
+        section{
+            text-align: left;
+            z-index: 2;
+            color: $primaryColor;
+            position:absolute;
+            top: 20vh;
+            padding: 5px;
+            margin: 5px 20vw 5px 20vw;
+        }
+        article{
+            text-align: left;
+            z-index: 2;
+            color: $primaryColor;
+            position:absolute;
+            top: 80vh;
+            padding: 5px;
+            margin: 5px 20vw 5px 20vw;
+        }
+
+    }
+
+    footer{
+        @extend %centered;
+        background-image: url(img/footersciana.png);
+        background-size: cover;
+        min-height: 300px;
+        h4{
+            color: $primaryColor;
+            z-index: 2;
+        }
+    }
+     }
+
+
+
+     /* Rectangle 1 
+
+position: absolute;
+width: 1547px;
+height: 788px;
+left: -71px;
+top: -16px;
+
+background: url(5195ebb8c5f9772deda82aa2937134d3.jpg), #C4C4C4; */
+
+
+
+
