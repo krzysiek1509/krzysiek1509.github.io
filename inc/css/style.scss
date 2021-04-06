@@ -5,6 +5,7 @@
       font-size: 20px;
   }
   $primaryColor:rgb(247, 243, 243);
+  $secondaryColor: rgb(133, 8, 8);
   %centered{
     display:flex;
     justify-content: center;
@@ -12,7 +13,7 @@
   }
   body,html{
     margin:0;
-    font-style: Brush Script MT, Brush Script Std, cursive;
+    font-style:normal;
     background-image: url(img/sciana.png);
         .tlo1{
         /*background-image: url(img/kawka.png);
@@ -38,9 +39,11 @@
         a{
             padding: 10px 40px 10px 40px;
             color: $primaryColor;
+            text-decoration: none; /* a tag without underline */
          }
          a:hover{
-             color: red;
+             color: $secondaryColor;
+             text-decoration: none;
          }
        }
     }
@@ -52,6 +55,7 @@
         
         .container{ 
             z-index:1;
+            border-radius: 20% 20% 2% 5%;
                     }
         header{
             position:absolute;
