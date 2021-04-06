@@ -8,7 +8,7 @@
   font-size: 20px;
 }
 
-body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body section main, html section main, body footer, html footer {
+body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body section main, html section main, body aside .kolumny, html aside .kolumny, body aside .podpisy, html aside .podpisy, body footer, html footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,6 +137,38 @@ body section .artykul1, html section .artykul1 {
 body section .artykul2, html section .artykul2 {
   position: absolute;
   top: 130vh;
+}
+
+body aside, html aside {
+  position: absolute;
+  top: 80vh;
+  z-index: 2;
+  padding: 5px;
+  background-color: black;
+  color: #f7f3f3;
+  border: 2px dashed brown;
+}
+
+body aside .kolumny, html aside .kolumny {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 0;
+}
+
+body aside .kolumny p, html aside .kolumny p {
+  width: 40px;
+  background-color: #e29a13;
+  height: 5px;
+  border: 2px solid pink;
+}
+
+body aside .podpisy, html aside .podpisy {
+  margin-top: 0;
+}
+
+body aside .podpisy p, html aside .podpisy p {
+  padding: 5px 35px 5px 35px;
+  margin-top: 0;
 }
 
 body footer, html footer {
