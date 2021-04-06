@@ -24,7 +24,7 @@ const chopekInfo =[
         opis : "Wstaje",
     }
 ];
-let index = 1;
+let index = 0;
 
 function wstawObrazek (numer){
     const obrazek = document.querySelector(".displayGif");
@@ -46,7 +46,7 @@ klikObrazek.onclick = () => { zmianaObrazka ("klik")};
 function zmianaObrazka(x){
     if( x  == "klik"){
         index++;
-        if( index > chopekInfo.length - 1){ index=1;}
+        if( index > chopekInfo.length - 1){ index=0;}
     }
 wstawObrazek(index);
 };
