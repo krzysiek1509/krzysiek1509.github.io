@@ -13,6 +13,7 @@
   body,html{
     height:100%;
     margin:0;
+    font-style: italic;
     background-image: url(img/sciana.png);
         .tlo1{
         /*background-image: url(img/kawka.png);
@@ -41,6 +42,7 @@
        }
     }
     section{
+        margin-top: -60vh;
         position:relative;
         @extend %centered;
         flex-direction: column;
@@ -57,7 +59,7 @@
         }
         .marketing{ 
             position:absolute;
-            top: 40vh;
+            top: 60vh;
             z-index: 2;
         }
         main{
@@ -73,12 +75,17 @@
             text-align: left;
             z-index: 2;
             color: $primaryColor;
-            position:absolute;
-            top: 80vh;
             padding: 5px;
             margin: 5px 30vw 5px 30vw;
         }
-
+        .artykul1{
+            position:absolute;
+            top: 100vh;
+        }
+        .artykul2{
+            position:absolute;
+            top: 130vh;
+        }
     }
 
     footer{
@@ -86,9 +93,10 @@
         background-image: url(img/footersciana.png);
         background-size: cover;
         min-height: 300px;
+        z-index: 3;
         h4{
             color: $primaryColor;
-            z-index: 2;
+            z-index: 4;
         }
     }
      }

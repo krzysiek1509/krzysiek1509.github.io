@@ -22,6 +22,7 @@ body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html secti
 body, html {
   height: 100%;
   margin: 0;
+  font-style: italic;
   background-image: url(img/sciana.png);
 }
 
@@ -53,6 +54,7 @@ body .tlo1 nav a, html .tlo1 nav a {
 }
 
 body section, html section {
+  margin-top: -60vh;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -77,7 +79,7 @@ body section header, html section header {
 
 body section .marketing, html section .marketing {
   position: absolute;
-  top: 40vh;
+  top: 60vh;
   z-index: 2;
 }
 
@@ -95,21 +97,30 @@ body section article, html section article {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
-  position: absolute;
-  top: 80vh;
   padding: 5px;
   margin: 5px 30vw 5px 30vw;
+}
+
+body section .artykul1, html section .artykul1 {
+  position: absolute;
+  top: 100vh;
+}
+
+body section .artykul2, html section .artykul2 {
+  position: absolute;
+  top: 130vh;
 }
 
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
   min-height: 300px;
+  z-index: 3;
 }
 
 body footer h4, html footer h4 {
   color: #f7f3f3;
-  z-index: 2;
+  z-index: 4;
 }
 
 /* Rectangle 1 
