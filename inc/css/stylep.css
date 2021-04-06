@@ -1,0 +1,152 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+}
+
+body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body section main, html section main, body footer, html footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body, html {
+  margin: 0;
+  font-style: normal;
+  background-image: url(img/sciana.png);
+}
+
+body .tlo1, html .tlo1 {
+  /*background-image: url(img/kawka.png);
+        height: 500px; */
+  position: relative;
+}
+
+body .tlo1 img, html .tlo1 img {
+  z-index: 0;
+}
+
+body .tlo1 nav, html .tlo1 nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10  px;
+  margin: 5px 15vw 5px 15vw;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 20px  20px 20px 20px;
+  border: 2px solid #575348;
+  font-size: 1.5rem;
+}
+
+body .tlo1 nav a, html .tlo1 nav a {
+  padding: 10px 40px 10px 40px;
+  color: #f7f3f3;
+  text-decoration: none;
+  /* a tag without underline */
+}
+
+body .tlo1 nav a:hover, html .tlo1 nav a:hover {
+  color: #850808;
+  text-decoration: none;
+}
+
+body section, html section {
+  margin-top: -60vh;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .container, html section .container {
+  z-index: 1;
+  border-radius: 20% 20% 2% 5%;
+}
+
+body section header, html section header {
+  position: absolute;
+  top: 5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #f7f3f3;
+  z-index: 2;
+}
+
+body section .marketing, html section .marketing {
+  position: absolute;
+  top: 60vh;
+  z-index: 2;
+}
+
+body section main, html section main {
+  text-align: left;
+  z-index: 2;
+  color: #f7f3f3;
+  position: absolute;
+  top: 20vh;
+  padding: 5px;
+  margin: 5px 5vw 5px 5vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section main a, html section main a {
+  padding: 5px;
+}
+
+body section main a img, html section main a img {
+  z-index: 3;
+  width: 30vw;
+  height: 25vh;
+}
+
+body section main a:hover img, html section main a:hover img {
+  width: 46vw;
+  height: 32vh;
+}
+
+body section article, html section article {
+  text-align: left;
+  z-index: 2;
+  color: #f7f3f3;
+  padding: 5px;
+  margin: 5px 30vw 5px 30vw;
+}
+
+body section .artykul1, html section .artykul1 {
+  position: absolute;
+  top: 100vh;
+}
+
+body section .artykul2, html section .artykul2 {
+  position: absolute;
+  top: 130vh;
+}
+
+body footer, html footer {
+  background-image: url(img/footersciana.png);
+  background-size: cover;
+  min-height: 300px;
+  z-index: 3;
+}
+
+body footer h4, html footer h4 {
+  color: #f7f3f3;
+  z-index: 4;
+}
+/*# sourceMappingURL=stylep.css.map */
