@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+  }
+  :root{
+      font-size: 20px;
+  }
+  $primaryColor:rgb(247, 243, 243);
+  $secondaryColor: rgb(133, 8, 8);
+  %centered{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body,html{
+    margin:0;
+    font-style:normal;
+    background-image: url(img/sciana.png);
+        .tlo1{
+        /*background-image: url(img/kawka.png);
+        height: 500px; */
+        position:relative;
+         @extend %centered;
+         img{
+             z-index: 0;
+         }
+        
+    nav{
+        @extend %centered;
+        justify-content: space-around;
+        padding: 10  px;
+        margin: 5px 15vw 5px 15vw;
+        position : absolute;
+        top: 20px;
+        left: 10vw;
+        border-radius: 20px  20px 20px 20px;
+        border: 2px solid rgb(87, 83, 72);
+        font-size: 1.5rem;
+                
+        a{
+            padding: 10px 40px 10px 40px;
+            color: $primaryColor;
+            text-decoration: none; /* a tag without underline */
+         }
+         a:hover{
+             color: $secondaryColor;
+             text-decoration: none;
+         }
+       }
+    }
+    section{
+        margin-top: -60vh;
+        position:relative;
+        @extend %centered;
+        flex-direction: column;
+        
+        .container{ 
+            z-index:1;
+            border-radius: 20% 20% 2% 5%;
+                    }
+        header{
+            position:absolute;
+            top:5vh;
+        @extend %centered;
+        flex-direction: column;
+        color: $primaryColor;
+        z-index: 2;
+        }
+        .wykrespodpis{
+            display:flex;
+            flex-direction: column;
+            position: absolute;
+            border: 2px solid black;
+            height: 500px;
+            width: 500px;
+            top: 20vh;
+            left: 32vw;
+            
+        .umiewykres{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex:5;
+           
+            .ikony{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                flex:1;
+                z-index: 2;
+                img{
+                    width: 88px;
+                    height: 110px;
+                    border: 2px solid black;
+                }
+              }
+            
+            
+            .swykres{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                position:absolute;
+                flex:4;
+                top:0vh;
+                left: 10vh;
+                 padding: 5px 5px 5px 0px;
+                margin-left: 0px;
+                z-index: -1;
+                
+                
+                #s1{
+                    width: 320px;
+                    height: 108px;
+                    background-color: rgb(197, 73, 16);
+                    margin-top: 11px;
+                    margin-bottom: 30px;
+                    z-index: -1;                                                        
+                }
+                #s2{
+                    width: 240px;
+                    height: 108px;
+                    background-color: rgb(36, 172, 206);
+                    margin-bottom: 30px;
+                    z-index: -1;
+                }
+                #s3{
+                    width: 160px;
+                    height: 108px;
+                    background-color: rgb(210, 223, 31);
+                    z-index: -1;
+                }
+                
+
+            }
+          }
+          .spodpisy{
+              display: flex;
+              flex:1;
+              margin: 0px;
+              padding: 0px;
+              z-index: 2;
+               #pierwszy{ 
+                    width: 110px;
+                    height: 60px;
+                }
+                p {
+                    border: 2px dashed rgb(27, 10, 10);
+                    width: 8vw;
+                    height: 30px;
+                    text-align: center;
+                    color: $primaryColor;
+                    
+                }
+          }
+    }
+    }
+
+    footer{
+        @extend %centered;
+        background-image: url(img/footersciana.png);
+        background-size: cover;
+        min-height: 300px;
+        z-index: 3;
+        h4{
+            color: $primaryColor;
+            z-index: 4;
+        }
+    }
+
+}
