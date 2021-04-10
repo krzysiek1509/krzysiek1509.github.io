@@ -32,13 +32,13 @@
         margin: 5px 15vw 5px 15vw;
         position : absolute;
         top: 20px;
-        left: 20px;
+        left: 10vw;
         border-radius: 20px  20px 20px 20px;
         border: 2px solid rgb(87, 83, 72);
         font-size: 1.5rem;
                 
         a{
-            padding: 10px 40px 10px 40px;
+            padding: 10px 20px 10px 20px;
             color: $primaryColor;
             text-decoration: none; /* a tag without underline */
          }
@@ -89,12 +89,7 @@
                  height: 25vh;
                 }
             }
-            a:hover{
-                    img{
-                        width: 46vw;
-                        height: 32vh;  
-                    }
-            }
+           
         }
 
         article{
@@ -115,22 +110,24 @@
     }
 
     aside{
-        position: absolute;
-        top: 80vh;
+        position: fixed;
+        top: 60vh;
         z-index: 2;
         padding: 5px;
         background-color: black;
         color: $primaryColor;
-        border: 2px dashed brown;
+        border: 2px dashed rgb(58, 38, 38);
         .kolumny{
             @extend %centered;
             justify-content: space-around;
+            align-items: flex-end;
             margin-bottom: 0;
+            
             p{
                 width: 40px;
-                background-color:rgb(226, 154, 19);
+                background-color:rgb(109, 19, 226);
                 height: 5px;
-                border: 2px solid pink;
+                border: 2px solid rgb(106, 18, 221);
             }
         }
         .podpisy{

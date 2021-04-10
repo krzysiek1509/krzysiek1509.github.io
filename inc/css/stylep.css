@@ -43,14 +43,14 @@ body .tlo1 nav, html .tlo1 nav {
   margin: 5px 15vw 5px 15vw;
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 10vw;
   border-radius: 20px  20px 20px 20px;
   border: 2px solid #575348;
   font-size: 1.5rem;
 }
 
 body .tlo1 nav a, html .tlo1 nav a {
-  padding: 10px 40px 10px 40px;
+  padding: 10px 20px 10px 20px;
   color: #f7f3f3;
   text-decoration: none;
   /* a tag without underline */
@@ -116,11 +116,6 @@ body section main a img, html section main a img {
   height: 25vh;
 }
 
-body section main a:hover img, html section main a:hover img {
-  width: 46vw;
-  height: 32vh;
-}
-
 body section article, html section article {
   text-align: left;
   z-index: 2;
@@ -140,26 +135,29 @@ body section .artykul2, html section .artykul2 {
 }
 
 body aside, html aside {
-  position: absolute;
-  top: 80vh;
+  position: fixed;
+  top: 60vh;
   z-index: 2;
   padding: 5px;
   background-color: black;
   color: #f7f3f3;
-  border: 2px dashed brown;
+  border: 2px dashed #3a2626;
 }
 
 body aside .kolumny, html aside .kolumny {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-bottom: 0;
 }
 
 body aside .kolumny p, html aside .kolumny p {
   width: 40px;
-  background-color: #e29a13;
+  background-color: #6d13e2;
   height: 5px;
-  border: 2px solid pink;
+  border: 2px solid #6a12dd;
 }
 
 body aside .podpisy, html aside .podpisy {
