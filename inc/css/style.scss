@@ -37,7 +37,7 @@
         font-size: 1.5rem;
                 
         a{
-            padding: 10px 40px 10px 40px;
+            padding: 10px 30px 10px 30px;
             color: $primaryColor;
             text-decoration: none; /* a tag without underline */
          }
@@ -47,7 +47,7 @@
          }
        }
     }
-    section{
+    .omnie{
         margin-top: -60vh;
         position:relative;
         @extend %centered;
@@ -79,7 +79,7 @@
             padding: 5px;
             margin: 5px 30vw 5px 30vw;
         }
-        article{
+        section {
             text-align: left;
             z-index: 2;
             color: $primaryColor;
@@ -94,6 +94,7 @@
             position:absolute;
             top: 130vh;
         }
+    
     }
 
     footer{
