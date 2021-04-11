@@ -53,7 +53,7 @@
         position:relative;
         @extend %centered;
         flex-direction: column;
-        
+                
         .container{ 
             z-index:1;
             border-radius: 20% 20% 2% 5%;
@@ -92,6 +92,7 @@
            
         }
 
+       
         article{
             text-align: left;
             z-index: 2;
@@ -140,6 +141,17 @@
         }
         
     }
+    .opisprojektu{
+        position: fixed;
+        top: 60vh;
+        right: 0px;
+        z-index: 2;
+        padding: 10px;
+        background-color: black;
+        color: $primaryColor;
+        border: 2px dashed rgb(58, 38, 38);
+        width: 30vw;
+            }
     footer{
         @extend %centered;
         background-image: url(img/footersciana.png);
@@ -151,6 +163,25 @@
             z-index: 4;
         }
     }
+
+    @media(max-width: 1200px){
+            section{
+                left: 10vw;
+                main{
+                    left: 40vw;
+                }
+            }
+            .opisprojektu{ width: 23vw;}
+         }
+         @media(max-width: 750px){
+            section{
+                left: 20vw;
+                main{
+                    left: 50vw;
+                }
+            }
+            .opisprojektu{ width: 30vw;}
+        }
      }
 
 

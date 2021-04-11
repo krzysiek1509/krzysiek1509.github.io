@@ -169,6 +169,18 @@ body aside .podpisy p, html aside .podpisy p {
   margin-top: 0;
 }
 
+body .opisprojektu, html .opisprojektu {
+  position: fixed;
+  top: 60vh;
+  right: 0px;
+  z-index: 2;
+  padding: 10px;
+  background-color: black;
+  color: #f7f3f3;
+  border: 2px dashed #3a2626;
+  width: 30vw;
+}
+
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
@@ -179,5 +191,29 @@ body footer, html footer {
 body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
+}
+
+@media (max-width: 1200px) {
+  body section, html section {
+    left: 10vw;
+  }
+  body section main, html section main {
+    left: 40vw;
+  }
+  body .opisprojektu, html .opisprojektu {
+    width: 23vw;
+  }
+}
+
+@media (max-width: 750px) {
+  body section, html section {
+    left: 20vw;
+  }
+  body section main, html section main {
+    left: 50vw;
+  }
+  body .opisprojektu, html .opisprojektu {
+    width: 30vw;
+  }
 }
 /*# sourceMappingURL=stylep.css.map */
