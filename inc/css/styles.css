@@ -157,7 +157,6 @@ body section .wykrespodpis .umiewykres .swykres, html section .wykrespodpis .umi
   left: 10vh;
   padding: 5px 5px 5px 0px;
   margin-left: 0px;
-  z-index: -1;
 }
 
 body section .wykrespodpis .umiewykres .swykres #s1, html section .wykrespodpis .umiewykres .swykres #s1 {
