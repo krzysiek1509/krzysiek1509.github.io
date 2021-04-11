@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+  }
+  :root{
+      font-size: 20px;
+  }
+  $primaryColor:rgb(247, 243, 243);
+  $secondaryColor: rgb(133, 8, 8);
+  %centered{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body,html{
+    margin:0;
+    font-style:normal;
+    background-image: url(img/sciana.png);
+        .tlo1{
+        /*background-image: url(img/kawka.png);
+        height: 500px; */
+        position:relative;
+         @extend %centered;
+         img{
+             z-index: 0;
+         }
+        
+    nav{
+        @extend %centered;
+        justify-content: space-around;
+        padding: 10  px;
+        margin: 5px 15vw 5px 15vw;
+        position : absolute;
+        top: 20px;
+        left: 10vw;
+        border-radius: 20px  20px 20px 20px;
+        border: 2px solid rgb(87, 83, 72);
+        font-size: 1.5rem;
+                
+        a{
+            padding: 10px 40px 10px 40px;
+            color: $primaryColor;
+            text-decoration: none; /* a tag without underline */
+         }
+         a:hover{
+             color: $secondaryColor;
+             text-decoration: none;
+         }
+       }
+    }
+    section{
+        margin-top: -60vh;
+        position:relative;
+        @extend %centered;
+        flex-direction: column;
+        
+        .container{ 
+            z-index:1;
+            border-radius: 20% 20% 2% 5%;
+                    }
+        header{
+            position:absolute;
+            top:5vh;
+        @extend %centered;
+        flex-direction: column;
+        color: $primaryColor;
+        z-index: 2;
+        }
+        
+        .ckontakt{
+            text-align: left;
+            z-index: 2;
+            color: $primaryColor;
+            position:absolute;
+            top: 20vh;
+            padding: 5px;
+            margin: 5px 30vw 5px 30vw;
+            color: rgb(146, 146, 219)
+        }
+           }
+
+    footer{
+        @extend %centered;
+        background-image: url(img/footersciana.png);
+        background-size: cover;
+        min-height: 300px;
+        z-index: 3;
+        h4{
+            color: $primaryColor;
+            z-index: 4;
+        }
+    }
+     }
