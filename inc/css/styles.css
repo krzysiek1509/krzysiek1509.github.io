@@ -97,7 +97,7 @@ body section .wykrespodpis, html section .wykrespodpis {
   border: 2px solid black;
   height: 500px;
   width: 500px;
-  top: 20vh;
+  top: 22vh;
   left: 32vw;
 }
 
@@ -200,13 +200,13 @@ body section .wykrespodpis .spodpisy, html section .wykrespodpis .spodpisy {
 }
 
 body section .wykrespodpis .spodpisy #pierwszy, html section .wykrespodpis .spodpisy #pierwszy {
-  width: 110px;
+  width: 100px;
   height: 60px;
 }
 
 body section .wykrespodpis .spodpisy p, html section .wykrespodpis .spodpisy p {
   border: 2px dashed #1b0a0a;
-  width: 8vw;
+  width: 80px;
   height: 30px;
   text-align: center;
   color: #f7f3f3;
