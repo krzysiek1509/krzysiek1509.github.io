@@ -159,28 +159,32 @@ body section .wykrespodpis .umiewykres .swykres, html section .wykrespodpis .umi
   margin-left: 0px;
 }
 
-body section .wykrespodpis .umiewykres .swykres #s1, html section .wykrespodpis .umiewykres .swykres #s1 {
+body section .wykrespodpis .umiewykres .swykres .wiersze, html section .wykrespodpis .umiewykres .swykres .wiersze {
+  z-index: 2;
+}
+
+body section .wykrespodpis .umiewykres .swykres .wiersze .s1, html section .wykrespodpis .umiewykres .swykres .wiersze .s1 {
   width: 320px;
   height: 108px;
   background-color: #c54910;
-  margin-top: 11px;
+  margin-top: 8px;
   margin-bottom: 30px;
-  z-index: -1;
+  opacity: 0;
 }
 
-body section .wykrespodpis .umiewykres .swykres #s2, html section .wykrespodpis .umiewykres .swykres #s2 {
+body section .wykrespodpis .umiewykres .swykres .wiersze .s2, html section .wykrespodpis .umiewykres .swykres .wiersze .s2 {
   width: 240px;
   height: 108px;
   background-color: #24acce;
   margin-bottom: 30px;
-  z-index: -1;
+  opacity: 0;
 }
 
-body section .wykrespodpis .umiewykres .swykres #s3, html section .wykrespodpis .umiewykres .swykres #s3 {
+body section .wykrespodpis .umiewykres .swykres .wiersze .s3, html section .wykrespodpis .umiewykres .swykres .wiersze .s3 {
   width: 160px;
   height: 108px;
   background-color: #d2df1f;
-  z-index: -1;
+  opacity: 0;
 }
 
 body section .wykrespodpis .spodpisy, html section .wykrespodpis .spodpisy {
