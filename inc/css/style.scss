@@ -112,6 +112,10 @@
         }
     }
     @media(max-width: 1400px){
+        .tlo1{
+                nav{left:5vw;
+                    margin-left: 3vw;}
+                    }
         .omnie{
             left:8vw; 
             main{ width:60vw;}
@@ -119,16 +123,43 @@
                     }
     }
     @media(max-width: 900px){
+        .tlo1{
+            nav{ font-size: 18px;
+            a{padding-left: 10px; padding-right: 10px;}
+                }
+        }
         .omnie{
             left:18vw; 
             .artykul2{ top: 145vh;}
                     }
     }
     @media(max-width: 700px){
-        .omnie{
+          .omnie{
             left:25vw; 
             main{ width:80vw;}
             section{ width:80vw;}
+                    }
+    }
+    @media(max-width: 650px){
+        .omnie{
+            left:25vw; 
+            main{ 
+                font-size: 16px;
+                width:95vw;}
+            section{ 
+                font-size: 16px;
+                width:95vw;}
+                    }
+    }
+    @media(max-width: 350px){
+        
+        .omnie{
+            left:35vw; 
+            font-size: 16px;
+            main{ width:140vw;
+            padding-left: 25px;}
+            section{ width:140vw;
+            padding-left: 25px;}
                     }
     }
      }

@@ -135,6 +135,10 @@ body footer h4, html footer h4 {
 }
 
 @media (max-width: 1400px) {
+  body .tlo1 nav, html .tlo1 nav {
+    left: 5vw;
+    margin-left: 3vw;
+  }
   body .omnie, html .omnie {
     left: 8vw;
   }
@@ -147,6 +151,13 @@ body footer h4, html footer h4 {
 }
 
 @media (max-width: 900px) {
+  body .tlo1 nav, html .tlo1 nav {
+    font-size: 18px;
+  }
+  body .tlo1 nav a, html .tlo1 nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   body .omnie, html .omnie {
     left: 18vw;
   }
@@ -164,6 +175,35 @@ body footer h4, html footer h4 {
   }
   body .omnie section, html .omnie section {
     width: 80vw;
+  }
+}
+
+@media (max-width: 650px) {
+  body .omnie, html .omnie {
+    left: 25vw;
+  }
+  body .omnie main, html .omnie main {
+    font-size: 16px;
+    width: 95vw;
+  }
+  body .omnie section, html .omnie section {
+    font-size: 16px;
+    width: 95vw;
+  }
+}
+
+@media (max-width: 350px) {
+  body .omnie, html .omnie {
+    left: 35vw;
+    font-size: 16px;
+  }
+  body .omnie main, html .omnie main {
+    width: 140vw;
+    padding-left: 25px;
+  }
+  body .omnie section, html .omnie section {
+    width: 140vw;
+    padding-left: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
