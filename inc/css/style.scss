@@ -76,6 +76,7 @@
             color: $primaryColor;
             position:absolute;
             top: 30vh;
+            width: 40vw;
             padding: 5px;
             margin: 5px 30vw 5px 30vw;
         }
@@ -83,6 +84,7 @@
             text-align: left;
             z-index: 2;
             color: $primaryColor;
+            width: 40vw;
             padding: 5px;
             margin: 5px 30vw 5px 30vw;
         }
@@ -101,12 +103,32 @@
         @extend %centered;
         background-image: url(img/footersciana.png);
         background-size: cover;
-        min-height: 300px;
+        height: 300px;
         z-index: 3;
         h4{
             color: $primaryColor;
             z-index: 4;
         }
+    }
+    @media(max-width: 1200px){
+        .omnie{
+            left:8vw; 
+            main{ width:60vw;}
+            section{ width:60vw;}
+                    }
+    }
+    @media(max-width: 900px){
+        .omnie{
+            left:18vw; 
+            .artykul2{ top: 145vh;}
+                    }
+    }
+    @media(max-width: 700px){
+        .omnie{
+            left:25vw; 
+            main{ width:80vw;}
+            section{ width:80vw;}
+                    }
     }
      }
 

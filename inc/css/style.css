@@ -97,6 +97,7 @@ body .omnie main, html .omnie main {
   color: #f7f3f3;
   position: absolute;
   top: 30vh;
+  width: 40vw;
   padding: 5px;
   margin: 5px 30vw 5px 30vw;
 }
@@ -105,6 +106,7 @@ body .omnie section, html .omnie section {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
+  width: 40vw;
   padding: 5px;
   margin: 5px 30vw 5px 30vw;
 }
@@ -122,12 +124,45 @@ body .omnie .artykul2, html .omnie .artykul2 {
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
-  min-height: 300px;
+  height: 300px;
   z-index: 3;
 }
 
 body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
+}
+
+@media (max-width: 1200px) {
+  body .omnie, html .omnie {
+    left: 8vw;
+  }
+  body .omnie main, html .omnie main {
+    width: 60vw;
+  }
+  body .omnie section, html .omnie section {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 900px) {
+  body .omnie, html .omnie {
+    left: 18vw;
+  }
+  body .omnie .artykul2, html .omnie .artykul2 {
+    top: 145vh;
+  }
+}
+
+@media (max-width: 700px) {
+  body .omnie, html .omnie {
+    left: 25vw;
+  }
+  body .omnie main, html .omnie main {
+    width: 80vw;
+  }
+  body .omnie section, html .omnie section {
+    width: 80vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
