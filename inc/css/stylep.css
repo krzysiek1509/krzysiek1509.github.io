@@ -86,12 +86,6 @@ body .miejscestron header, html .miejscestron header {
   z-index: 2;
 }
 
-body .miejscestron .marketing, html .miejscestron .marketing {
-  position: absolute;
-  top: 60vh;
-  z-index: 2;
-}
-
 body .miejscestron main, html .miejscestron main {
   text-align: left;
   z-index: 2;
