@@ -76,7 +76,7 @@ body .omnie .container, html .omnie .container {
 
 body .omnie header, html .omnie header {
   position: absolute;
-  top: 5vh;
+  top: 10vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -96,7 +96,7 @@ body .omnie main, html .omnie main {
   z-index: 2;
   color: #f7f3f3;
   position: absolute;
-  top: 20vh;
+  top: 30vh;
   padding: 5px;
   margin: 5px 30vw 5px 30vw;
 }
@@ -116,7 +116,7 @@ body .omnie .artykul1, html .omnie .artykul1 {
 
 body .omnie .artykul2, html .omnie .artykul2 {
   position: absolute;
-  top: 130vh;
+  top: 135vh;
 }
 
 body footer, html footer {

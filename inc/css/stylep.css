@@ -8,7 +8,7 @@
   font-size: 20px;
 }
 
-body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body section main, html section main, body aside .kolumny, html aside .kolumny, body aside .podpisy, html aside .podpisy, body footer, html footer {
+body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body .miejscestron, html .miejscestron, body .miejscestron header, html .miejscestron header, body .miejscestron main, html .miejscestron main, body aside .kolumny, html aside .kolumny, body aside .podpisy, html aside .podpisy, body footer, html footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,7 @@ body .tlo1 nav a:hover, html .tlo1 nav a:hover {
   text-decoration: none;
 }
 
-body section, html section {
+body .miejscestron, html .miejscestron {
   margin-top: -60vh;
   position: relative;
   -webkit-box-orient: vertical;
@@ -70,12 +70,12 @@ body section, html section {
           flex-direction: column;
 }
 
-body section .container, html section .container {
+body .miejscestron .container, html .miejscestron .container {
   z-index: 1;
   border-radius: 20% 20% 2% 5%;
 }
 
-body section header, html section header {
+body .miejscestron header, html .miejscestron header {
   position: absolute;
   top: 5vh;
   -webkit-box-orient: vertical;
@@ -86,13 +86,13 @@ body section header, html section header {
   z-index: 2;
 }
 
-body section .marketing, html section .marketing {
+body .miejscestron .marketing, html .miejscestron .marketing {
   position: absolute;
   top: 60vh;
   z-index: 2;
 }
 
-body section main, html section main {
+body .miejscestron main, html .miejscestron main {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
@@ -106,17 +106,17 @@ body section main, html section main {
           flex-direction: column;
 }
 
-body section main a, html section main a {
+body .miejscestron main a, html .miejscestron main a {
   padding: 5px;
 }
 
-body section main a img, html section main a img {
+body .miejscestron main a img, html .miejscestron main a img {
   z-index: 3;
   width: 30vw;
   height: 25vh;
 }
 
-body section article, html section article {
+body .miejscestron article, html .miejscestron article {
   text-align: left;
   z-index: 2;
   color: #f7f3f3;
@@ -124,12 +124,12 @@ body section article, html section article {
   margin: 5px 30vw 5px 30vw;
 }
 
-body section .artykul1, html section .artykul1 {
+body .miejscestron .artykul1, html .miejscestron .artykul1 {
   position: absolute;
   top: 100vh;
 }
 
-body section .artykul2, html section .artykul2 {
+body .miejscestron .artykul2, html .miejscestron .artykul2 {
   position: absolute;
   top: 130vh;
 }

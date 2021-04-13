@@ -2,9 +2,9 @@ const tablicaObraz = [
     {
         src : "1",
         ht : "50",
-        cs : "50",
+        cs : "0",
         javscr : "0",
-        ops : "Tabelka oraz komunikat infomujący o ciasteczkach wykonane z pomocą Bootstrap",
+        ops : "Tabelka oraz komunikat infomujący o ciasteczkach wykonane z pomocą Bootstrap.",
 },
 {
     src : "2",
@@ -19,6 +19,20 @@ const tablicaObraz = [
         cs : "30",
         javscr : "40",
         ops : "Zmiana gifa oraz jego opisu po kliknięciu w niego - stworzona przy wykorzystaniu JavaScript.",
+},
+{
+    src : "4",
+        ht : "40",
+        cs : "50",
+        javscr : "0",
+        ops : "Strona ze zdjęciami umieszczony z wykorzystaniem display:flex, ponadto wykorzystano fontello do stworzenia ikonek popularnych serwisów.",
+},
+{
+src : "5",
+ht : "60",
+cs : "60",
+javscr : "0",
+ops : "Strona z wysuwanym menu z wykorzystaniem position:sticky, odpowiednie znaczniki semantyczne, dodanie komentarza oraz ikonek popularnych serwisów.",
 }
 ]
 
@@ -39,11 +53,15 @@ function zmianaKolumny (numer){
 const obraz1 = document.querySelector("#projekt1");
 const obraz2 = document.querySelector("#projekt2");
 const obraz3 = document.querySelector("#projekt3");
+const obraz4 = document.querySelector("#projekt4");
+const obraz5 = document.querySelector("#projekt5");
 
 
 obraz1.onmouseover = () => {zmianaKolumny(0)}; 
 obraz2.onmouseover = () => {zmianaKolumny(1)}; 
 obraz3.onmouseover = () => {zmianaKolumny(2)}; 
+obraz4.onmouseover = () => {zmianaKolumny(3)}; 
+obraz5.onmouseover = () => {zmianaKolumny(4)}; 
 /*
 
 obraz1.onmouseout = () => { brakWykresu()};
