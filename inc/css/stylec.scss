@@ -76,6 +76,16 @@
             margin: 5px 30vw 5px 30vw;
             color: rgb(146, 146, 219)
         }
+        .zegnam{
+            position:absolute;
+            align-self: center;
+            margin-top: -30vh;
+            z-index: 2;
+            img{ 
+                width: 935px;
+                padding-left: 15px;
+            }
+        }
            }
 
     footer{

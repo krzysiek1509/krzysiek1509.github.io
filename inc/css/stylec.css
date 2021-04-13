@@ -96,6 +96,20 @@ body section .ckontakt, html section .ckontakt {
   color: #9292db;
 }
 
+body section .zegnam, html section .zegnam {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: -30vh;
+  z-index: 2;
+}
+
+body section .zegnam img, html section .zegnam img {
+  width: 935px;
+  padding-left: 15px;
+}
+
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
