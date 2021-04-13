@@ -57,11 +57,16 @@ const obraz4 = document.querySelector("#projekt4");
 const obraz5 = document.querySelector("#projekt5");
 
 
-obraz1.onmouseover = () => {zmianaKolumny(0)}; 
+obraz1.onmouseover = () => {zmianaKolumny(0)};  
+obraz1.onclick = function(){zmianaKolumny(0)};
 obraz2.onmouseover = () => {zmianaKolumny(1)}; 
+obraz2.onclick = function(){zmianaKolumny(1)};
 obraz3.onmouseover = () => {zmianaKolumny(2)}; 
+obraz3.onclick = function(){zmianaKolumny(2)};
 obraz4.onmouseover = () => {zmianaKolumny(3)}; 
-obraz5.onmouseover = () => {zmianaKolumny(4)}; 
+obraz4.onclick = function(){zmianaKolumny(3)};
+obraz5.onmouseover = () => {zmianaKolumny(4)};
+obraz5.onclick = function(){zmianaKolumny(5)}; 
 /*
 
 obraz1.onmouseout = () => { brakWykresu()};

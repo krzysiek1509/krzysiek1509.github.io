@@ -74,19 +74,40 @@
             color: $primaryColor;
             position:absolute;
             top: 20vh;
+            gap: 10px;
             padding: 5px;
             margin: 5px 5vw 5px 5vw;
             @extend %centered;
             flex-direction: column;
-            a{
-                padding:5px;
-                img{
+             .projectimage{   
+                 display:flex;
+                 img{
                  z-index: 3;
-                 width: 30vw;
-                 height: 25vh;
+                 width: 24vw;
+                 height: 21vh;
                 }
-            }
-           
+                .projectlinks{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    a{
+                        padding: 5px;
+                        align-self: center;
+                            button{
+                                background-color: grey;
+                                border: 1px solid rgb(58, 15, 12);
+                                color:rgb(31, 208, 252);
+                                width:100px;
+                                height: 25px;
+                                border-radius: 20%;
+                                }
+                            .buttoncode{
+                                color:rgb(250, 246, 11);
+                                background-color: rgb(136, 124, 130);
+                            }
+                    }
+        }
+        }
         }
      
      }
@@ -97,6 +118,8 @@
         top: 60vh;
         z-index: 2;
         padding: 5px;
+        font-size: 18px;
+        font-family: Verdana, sans-serif;
         background-color: black;
         color: $primaryColor;
         border: 2px dashed rgb(58, 38, 38);
@@ -116,6 +139,8 @@
         .podpisy{
             @extend %centered;
             margin-top:0;
+            justify-content: space-around;
+            align-items: center;
             p{
                 padding: 5px 35px 5px 35px;
                 margin-top: 0;
@@ -129,6 +154,8 @@
         right: 0px;
         z-index: 2;
         padding: 10px;
+        font-size: 18px;
+        font-family: Verdana, sans-serif;
         background-color: black;
         color: $primaryColor;
         border: 2px dashed rgb(58, 38, 38);
@@ -145,14 +172,18 @@
             z-index: 4;
         }
     }
-    @media(max-width: 1200px){
+    @media(max-width: 1250px){
         .miejscestron{
             left: 10vw;
             main{
                 left: 30vw;
             }
         }
-        .opisprojektu{ width: 21vw;}
+        .opisprojektu{ 
+            top: 68vh; 
+            left: 5px;  
+            width:35vw;} 
+            aside{ top:40vh;}
      }
      @media(max-width: 900px){
         .miejscestron{
@@ -161,10 +192,7 @@
                 left: 35vw;
             }
         }
-       .opisprojektu{ 
-        top: 30vh; 
-        left: 5px;  
-        width:35vw;} 
+    
     }
     @media(max-width: 700px){
         .miejscestron{

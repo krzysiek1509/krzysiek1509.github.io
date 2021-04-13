@@ -93,6 +93,7 @@ body .miejscestron main, html .miejscestron main {
   color: #f7f3f3;
   position: absolute;
   top: 20vh;
+  gap: 10px;
   padding: 5px;
   margin: 5px 5vw 5px 5vw;
   -webkit-box-orient: vertical;
@@ -101,14 +102,49 @@ body .miejscestron main, html .miejscestron main {
           flex-direction: column;
 }
 
-body .miejscestron main a, html .miejscestron main a {
-  padding: 5px;
+body .miejscestron main .projectimage, html .miejscestron main .projectimage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body .miejscestron main a img, html .miejscestron main a img {
+body .miejscestron main .projectimage img, html .miejscestron main .projectimage img {
   z-index: 3;
-  width: 30vw;
-  height: 25vh;
+  width: 24vw;
+  height: 21vh;
+}
+
+body .miejscestron main .projectimage .projectlinks, html .miejscestron main .projectimage .projectlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .miejscestron main .projectimage .projectlinks a, html .miejscestron main .projectimage .projectlinks a {
+  padding: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .miejscestron main .projectimage .projectlinks a button, html .miejscestron main .projectimage .projectlinks a button {
+  background-color: grey;
+  border: 1px solid #3a0f0c;
+  color: #1fd0fc;
+  width: 100px;
+  height: 25px;
+  border-radius: 20%;
+}
+
+body .miejscestron main .projectimage .projectlinks a .buttoncode, html .miejscestron main .projectimage .projectlinks a .buttoncode {
+  color: #faf60b;
+  background-color: #887c82;
 }
 
 body aside, html aside {
@@ -116,6 +152,8 @@ body aside, html aside {
   top: 60vh;
   z-index: 2;
   padding: 5px;
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
   background-color: black;
   color: #f7f3f3;
   border: 2px dashed #3a2626;
@@ -139,6 +177,11 @@ body aside .kolumny p, html aside .kolumny p {
 
 body aside .podpisy, html aside .podpisy {
   margin-top: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body aside .podpisy p, html aside .podpisy p {
@@ -152,6 +195,8 @@ body .opisprojektu, html .opisprojektu {
   right: 0px;
   z-index: 2;
   padding: 10px;
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
   background-color: black;
   color: #f7f3f3;
   border: 2px dashed #3a2626;
@@ -170,7 +215,7 @@ body footer h4, html footer h4 {
   z-index: 4;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   body .miejscestron, html .miejscestron {
     left: 10vw;
   }
@@ -178,7 +223,12 @@ body footer h4, html footer h4 {
     left: 30vw;
   }
   body .opisprojektu, html .opisprojektu {
-    width: 21vw;
+    top: 68vh;
+    left: 5px;
+    width: 35vw;
+  }
+  body aside, html aside {
+    top: 40vh;
   }
 }
 
@@ -188,11 +238,6 @@ body footer h4, html footer h4 {
   }
   body .miejscestron main, html .miejscestron main {
     left: 35vw;
-  }
-  body .opisprojektu, html .opisprojektu {
-    top: 30vh;
-    left: 5px;
-    width: 35vw;
   }
 }
 
