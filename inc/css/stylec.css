@@ -5,6 +5,7 @@
 
 :root {
   font-size: 20px;
+  font-family: 'Merienda', cursive;
 }
 
 body .tlo1, html .tlo1, body .tlo1 nav, html .tlo1 nav, body section, html section, body section header, html section header, body footer, html footer {
@@ -90,6 +91,7 @@ body section .ckontakt, html section .ckontakt {
   z-index: 2;
   color: #f7f3f3;
   position: absolute;
+  font-family: Verdana, sans-serif;
   top: 20vh;
   padding: 5px;
   margin: 5px 30vw 5px 30vw;
