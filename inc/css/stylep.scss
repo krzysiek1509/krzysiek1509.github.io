@@ -66,11 +66,7 @@
         color: $primaryColor;
         z-index: 2;
         }
-        .marketing{ 
-            position:absolute;
-            top: 60vh;
-            z-index: 2;
-        }
+       
         main{
             text-align: left;
             z-index: 2;
@@ -91,24 +87,9 @@
             }
            
         }
-
-       
-        article{
-            text-align: left;
-            z-index: 2;
-            color: $primaryColor;
-            padding: 5px;
-            margin: 5px 30vw 5px 30vw;
-        }
-        .artykul1{
-            position:absolute;
-            top: 100vh;
-        }
-        .artykul2{
-            position:absolute;
-            top: 130vh;
-        }
-    }
+     
+     }
+    
 
     aside{
         position: fixed;
@@ -150,7 +131,7 @@
         background-color: black;
         color: $primaryColor;
         border: 2px dashed rgb(58, 38, 38);
-        width: 30vw;
+        width: 25vw;
             }
     footer{
         @extend %centered;
@@ -164,24 +145,37 @@
         }
     }
     @media(max-width: 1200px){
-            section{
-                left: 10vw;
-                main{
-                    left: 40vw;
-                }
+        .miejscestron{
+            left: 10vw;
+            main{
+                left: 30vw;
             }
-            .opisprojektu{ width: 23vw;}
-         }
-         @media(max-width: 750px){
-            section{
-                left: 20vw;
-                main{
-                    left: 50vw;
-                }
-            }
-            .opisprojektu{ width: 30vw;}
         }
+        .opisprojektu{ width: 21vw;}
      }
+     @media(max-width: 900px){
+        .miejscestron{
+            left: 20vw;
+            main{
+                left: 35vw;
+            }
+        }
+       .opisprojektu{ 
+        top: 30vh; 
+        left: 5px;  
+        width:35vw;} 
+    }
+    @media(max-width: 700px){
+        .miejscestron{
+            left: 20vw;
+            main{
+                left: 50vw;
+            }
+        }
+        
+    }
+}
+   
 
 
 

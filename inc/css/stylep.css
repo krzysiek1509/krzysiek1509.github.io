@@ -110,24 +110,6 @@ body .miejscestron main a img, html .miejscestron main a img {
   height: 25vh;
 }
 
-body .miejscestron article, html .miejscestron article {
-  text-align: left;
-  z-index: 2;
-  color: #f7f3f3;
-  padding: 5px;
-  margin: 5px 30vw 5px 30vw;
-}
-
-body .miejscestron .artykul1, html .miejscestron .artykul1 {
-  position: absolute;
-  top: 100vh;
-}
-
-body .miejscestron .artykul2, html .miejscestron .artykul2 {
-  position: absolute;
-  top: 130vh;
-}
-
 body aside, html aside {
   position: fixed;
   top: 60vh;
@@ -172,7 +154,7 @@ body .opisprojektu, html .opisprojektu {
   background-color: black;
   color: #f7f3f3;
   border: 2px dashed #3a2626;
-  width: 30vw;
+  width: 25vw;
 }
 
 body footer, html footer {
@@ -188,26 +170,37 @@ body footer h4, html footer h4 {
 }
 
 @media (max-width: 1200px) {
-  body section, html section {
+  body .miejscestron, html .miejscestron {
     left: 10vw;
   }
-  body section main, html section main {
-    left: 40vw;
+  body .miejscestron main, html .miejscestron main {
+    left: 30vw;
   }
   body .opisprojektu, html .opisprojektu {
-    width: 23vw;
+    width: 21vw;
   }
 }
 
-@media (max-width: 750px) {
-  body section, html section {
+@media (max-width: 900px) {
+  body .miejscestron, html .miejscestron {
     left: 20vw;
   }
-  body section main, html section main {
-    left: 50vw;
+  body .miejscestron main, html .miejscestron main {
+    left: 35vw;
   }
   body .opisprojektu, html .opisprojektu {
-    width: 30vw;
+    top: 30vh;
+    left: 5px;
+    width: 35vw;
+  }
+}
+
+@media (max-width: 700px) {
+  body .miejscestron, html .miejscestron {
+    left: 20vw;
+  }
+  body .miejscestron main, html .miejscestron main {
+    left: 50vw;
   }
 }
 /*# sourceMappingURL=stylep.css.map */
