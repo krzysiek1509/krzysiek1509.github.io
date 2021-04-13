@@ -240,4 +240,31 @@ body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
 }
+
+@media (max-width: 1200px) {
+  body section, html section {
+    left: 10vw;
+  }
+  body section .wykrespodpis, html section .wykrespodpis {
+    left: 25vw;
+  }
+}
+
+@media (max-width: 900px) {
+  body section, html section {
+    left: 20vw;
+  }
+  body section .wykrespodpis, html section .wykrespodpis {
+    left: 20vw;
+  }
+}
+
+@media (max-width: 700px) {
+  body section, html section {
+    left: 30vw;
+  }
+  body section .wykrespodpis, html section .wykrespodpis {
+    left: 15vw;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
