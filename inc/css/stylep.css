@@ -215,24 +215,34 @@ body footer h4, html footer h4 {
   z-index: 4;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1350px) {
+  body .tlo1 nav, html .tlo1 nav {
+    left: 5vw;
+    margin-left: 5vw;
+  }
   body .miejscestron, html .miejscestron {
     left: 10vw;
   }
   body .miejscestron main, html .miejscestron main {
     left: 30vw;
   }
+  body .miejscestron aside h4, html .miejscestron aside h4 {
+    font-size: 16px;
+  }
+  body .miejscestron .opisprojektu, html .miejscestron .opisprojektu {
+    font-size: 16px;
+  }
   body .opisprojektu, html .opisprojektu {
-    top: 68vh;
+    top: 72vh;
     left: 5px;
     width: 35vw;
   }
   body aside, html aside {
-    top: 40vh;
+    top: 50vh;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   body .miejscestron, html .miejscestron {
     left: 20vw;
   }
@@ -241,7 +251,7 @@ body footer h4, html footer h4 {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   body .miejscestron, html .miejscestron {
     left: 20vw;
   }
