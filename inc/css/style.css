@@ -134,7 +134,7 @@ body footer h4, html footer h4 {
   z-index: 4;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   body .omnie, html .omnie {
     left: 8vw;
   }
