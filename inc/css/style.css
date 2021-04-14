@@ -39,7 +39,7 @@ body .tlo1 img, html .tlo1 img {
 body .tlo1 nav, html .tlo1 nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 10  px;
+  padding: 10px 30px;
   margin: 5px 15vw 5px 15vw;
   position: absolute;
   top: 20px;
@@ -72,6 +72,7 @@ body .omnie, html .omnie {
 
 body .omnie .container, html .omnie .container {
   z-index: 1;
+  padding-top: 45px;
   border-radius: 20% 20% 2% 5%;
 }
 
@@ -114,18 +115,19 @@ body .omnie section, html .omnie section {
 
 body .omnie .artykul1, html .omnie .artykul1 {
   position: absolute;
-  top: 100vh;
+  top: 95vh;
 }
 
 body .omnie .artykul2, html .omnie .artykul2 {
   position: absolute;
-  top: 135vh;
+  top: 130vh;
 }
 
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
-  height: 300px;
+  min-width: 100vw;
+  min-height: 20vh;
   z-index: 3;
 }
 
@@ -136,8 +138,8 @@ body footer h4, html footer h4 {
 
 @media (max-width: 1400px) {
   body .tlo1 nav, html .tlo1 nav {
-    left: 5vw;
-    margin-left: 3vw;
+    left: 10vw;
+    margin-left: 5vw;
   }
   body .omnie, html .omnie {
     left: 8vw;
@@ -152,7 +154,7 @@ body footer h4, html footer h4 {
 
 @media (max-width: 900px) {
   body .tlo1 nav, html .tlo1 nav {
-    font-size: 18px;
+    font-size: 26px;
   }
   body .tlo1 nav a, html .tlo1 nav a {
     padding-left: 10px;
@@ -161,8 +163,15 @@ body footer h4, html footer h4 {
   body .omnie, html .omnie {
     left: 18vw;
   }
+  body .omnie main, html .omnie main {
+    font-size: 20px;
+    width: 80vw;
+  }
+  body .omnie section, html .omnie section {
+    width: 80vw;
+  }
   body .omnie .artykul2, html .omnie .artykul2 {
-    top: 145vh;
+    top: 130vh;
   }
 }
 
@@ -171,10 +180,10 @@ body footer h4, html footer h4 {
     left: 25vw;
   }
   body .omnie main, html .omnie main {
-    width: 80vw;
+    width: 90vw;
   }
   body .omnie section, html .omnie section {
-    width: 80vw;
+    width: 90vw;
   }
 }
 
@@ -192,7 +201,7 @@ body footer h4, html footer h4 {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
   body .omnie, html .omnie {
     left: 35vw;
     font-size: 16px;
