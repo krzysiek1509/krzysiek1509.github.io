@@ -104,13 +104,15 @@
     footer{
         @extend %centered;
         background-image: url(img/footersciana.png);
-        background-size:cover;
-        min-width:100vw;
+        background-size:cover;        
         min-height: 20vh;
-        z-index: 3;
+        z-index: 10;
+        margin-left: auto;
+        margin-right: auto;
         h4{
             color: $primaryColor;
             z-index: 4;
+            padding-top: 20px;
         }
     }
     @media(max-width: 1400px){
@@ -139,7 +141,7 @@
     }
     @media(max-width: 700px){
           .omnie{
-            left:25vw; 
+            left:15vw; 
             main{ width:90vw;}
             section{ width:90vw;}
                     }

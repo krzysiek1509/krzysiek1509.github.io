@@ -126,14 +126,16 @@ body .omnie .artykul2, html .omnie .artykul2 {
 body footer, html footer {
   background-image: url(img/footersciana.png);
   background-size: cover;
-  min-width: 100vw;
   min-height: 20vh;
-  z-index: 3;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
+  padding-top: 20px;
 }
 
 @media (max-width: 1400px) {
@@ -177,7 +179,7 @@ body footer h4, html footer h4 {
 
 @media (max-width: 700px) {
   body .omnie, html .omnie {
-    left: 25vw;
+    left: 15vw;
   }
   body .omnie main, html .omnie main {
     width: 90vw;
