@@ -123,4 +123,16 @@ body footer h4, html footer h4 {
   color: #f7f3f3;
   z-index: 4;
 }
+
+@media (max-width: 1400px) {
+  body .tlo1 nav, html .tlo1 nav {
+    font-size: 26px;
+    left: 10vw;
+    margin-left: 5vw;
+  }
+  body .tlo1 nav a, html .tlo1 nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 /*# sourceMappingURL=stylec.css.map */

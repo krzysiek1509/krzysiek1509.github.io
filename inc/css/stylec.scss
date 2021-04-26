@@ -101,4 +101,14 @@
             z-index: 4;
         }
     }
+    @media(max-width:1400px){
+        .tlo1{
+        nav { font-size: 26px;
+            left: 10vw;
+            margin-left: 5vw;
+            a{padding-left: 10px; padding-right: 10px;}
+                }
+            }
+        }
      }
+     
