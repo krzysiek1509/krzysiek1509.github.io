@@ -140,10 +140,12 @@ body .miejscestron main .projectimage .projectlinks a button, html .miejscestron
   width: 100px;
   height: 25px;
   border-radius: 20%;
+  cursor: pointer;
 }
 
 body .miejscestron main .projectimage .projectlinks a .buttoncode, html .miejscestron main .projectimage .projectlinks a .buttoncode {
   color: #faf60b;
+  cursor: pointer;
   background-color: #887c82;
 }
 
@@ -215,7 +217,7 @@ body footer h4, html footer h4 {
   z-index: 4;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
   body .tlo1 nav, html .tlo1 nav {
     left: 5vw;
     margin-left: 5vw;

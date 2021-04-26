@@ -100,9 +100,11 @@
                                 width:100px;
                                 height: 25px;
                                 border-radius: 20%;
+                                cursor: pointer;
                                 }
                             .buttoncode{
                                 color:rgb(250, 246, 11);
+                                cursor: pointer;
                                 background-color: rgb(136, 124, 130);
                             }
                     }
@@ -172,7 +174,7 @@
             z-index: 4;
         }
     }
-    @media(max-width: 1350px){
+    @media(max-width: 1400px){
         .tlo1{
             nav{
                 left:5vw;
