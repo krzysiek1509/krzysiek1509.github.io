@@ -185,7 +185,12 @@
             z-index: 4;
         }
     }
-    @media(max-width: 1200px){
+    @media(max-width: 1400px){
+        .tlo1{
+        nav{ font-size: 26px;
+            a{padding-left: 10px; padding-right: 10px;}
+                }
+            }
         section{
             left:10vw; 
             .wykrespodpis{ left: 25vw;}
@@ -193,14 +198,14 @@
     }
     @media(max-width: 900px){
         section{
-            left:20vw; 
-            .wykrespodpis{ left: 20vw;}
+            left:12vw; 
+            .wykrespodpis{ left: 15vw;}
         }
     }
     @media(max-width: 700px){
         section{
-            left:30vw; 
-            .wykrespodpis{ left: 15vw;}
+            left:14vw; 
+            .wykrespodpis{ left: 10vw;}
         }
     }
 }

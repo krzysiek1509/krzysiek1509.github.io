@@ -242,7 +242,14 @@ body footer h4, html footer h4 {
   z-index: 4;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+  body .tlo1 nav, html .tlo1 nav {
+    font-size: 26px;
+  }
+  body .tlo1 nav a, html .tlo1 nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   body section, html section {
     left: 10vw;
   }
@@ -253,19 +260,19 @@ body footer h4, html footer h4 {
 
 @media (max-width: 900px) {
   body section, html section {
-    left: 20vw;
+    left: 12vw;
   }
   body section .wykrespodpis, html section .wykrespodpis {
-    left: 20vw;
+    left: 15vw;
   }
 }
 
 @media (max-width: 700px) {
   body section, html section {
-    left: 30vw;
+    left: 14vw;
   }
   body section .wykrespodpis, html section .wykrespodpis {
-    left: 15vw;
+    left: 10vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */
