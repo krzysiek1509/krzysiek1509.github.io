@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 20px;
+}
+body{
+    background: url("img/darkness.png");
+    margin: 0;
+}
+#headcontent{
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    padding-top: 2vh;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.slide-container{
+    width: 50vw;
+    height: 30vh;
+    margin: 10px auto;
+    position: relative;
+        }
+.slide-image{
+    display: none;
+}
+.slide-container img{
+    width: 50vw;
+    height: 30vh;
+}
+.textquote{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 5vh;
+}
+
+.dots-cointainer{
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 26vh;
+    left: 20vw;
+    
+}
+.dots{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    background-color: #b6adad;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dots:hover {
+    background-color: #717171;
+  }
+  
